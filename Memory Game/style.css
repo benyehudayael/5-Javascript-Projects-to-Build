@@ -1,0 +1,87 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+#splashScreen {
+    background-image: url('https://d1e4pidl3fu268.cloudfront.net/7a68284f-870d-49fb-937e-4c6d86a4779f/MemorygameFruitsandvegetables1kopie.crop_691x518_9,0.preview.png');
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.hide { display: none !important;}
+#startBtn {
+    background-color: darkcyan;
+    color: aliceblue;
+    padding: 30px;
+    font-size: 20px;
+    border: solid 1px darkgreen;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 50px;
+    left: 47%;
+}
+#startBtn:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    cursor: pointer
+}
+.dialog {
+    width: 600px;
+    height: 200px;
+    background-color: azure;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 300px; 
+    text-align: center; 
+}
+.itemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+}
+.dialogItem {
+    width: 100px;
+    height: 45px;
+    background-color:rgb(48, 61, 236);
+    border: solid 1px black;
+    border-radius: 5px;
+    font-size: 28px;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+}
+
+.itemsContainer > .dialogItem:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    cursor: pointer
+}
+
+#gameBoard {
+    width: 100%;
+    height:max-content;
+    margin: auto;
+    transform: translateY(37%);
+}
+.card {
+    width: 40px;
+    height: 60px;
+    background-color:rgb(48, 61, 236);
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: 0px 7px 7px 0px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.card:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    background-color:rgb(9, 14, 88);
+    cursor: pointer
+}
